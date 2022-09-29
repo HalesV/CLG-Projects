@@ -1,0 +1,373 @@
+/* ID Elements */
+
+#content {
+    border: 1px solid #754e38;
+    background-color: #f3ede0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content-article {
+    border: 1px solid #754e38;
+    background-color: #f3ede0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-block {
+    border: 1px solid #754e38;
+    background-color: #d9ced6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#newsletter {
+    border: 1px solid #754e38;
+    background-color: #f3ede0;
+    max-width: 38%;
+    padding: 10px;
+    margin-left: 30%;
+}
+
+#submit-button {
+    border: 1px solid #754e38;
+    background-color: #e9ecef;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#table-block {
+    flex-direction: row;
+    border-collapse: collapse;
+}
+
+/* CLASS Elements */
+
+.checkbox {
+    display: inline-block;
+}
+
+.contact-details {
+    border: 1px solid #754e38;
+    background-color: #d9ced6;
+    align-items: center;
+    padding: 5px 20px 20px;
+}
+
+.contact-images {
+    display: flex;
+    align-items: space-evenly;
+    padding-top: 1.5em;
+}
+
+.contact-images img {
+    border-radius: 50%;
+}
+
+.content-block {
+    border: 1px solid #754e38;
+    margin: 15px 14px;
+    padding: 10px;
+    max-width: 46%;
+}
+
+.content-block.background {
+    background-image: url(./Images/Background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-label {
+    color: #754e38;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hover:hover {
+    border: 1px solid #754e38;
+    background-color: #e9ecef;
+    padding: 10px;
+}
+
+.posts {
+    border: 1px solid #754e38;
+    margin: 10px 10px;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 13em;
+}
+
+.posts img {
+    border-radius: 100%;
+    margin: -5px 10px 10px 10px;
+    float: left;
+}
+
+.td1 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+.td3 {
+    padding: 20px;
+}
+
+.td4 img {
+    border-radius: 50%;
+}
+
+/* HTML Elements */
+
+a:link {
+    text-decoration: none;
+    color: #754e38
+}
+
+a:visited {
+    color: #af6fc3;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+body div {
+    margin: 20px 20px;
+}
+
+h2,
+h3,
+h4,
+footer {
+    color: #754e38;
+}
+
+header img {
+    margin: 20px 0px;
+}
+
+nav {
+    border: 1px solid #754e38;
+    background-color: #f3ede0;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+nav a {
+    color: #754e38;
+    text-decoration: none;
+}
+
+span {
+    color: #754e38;
+    font-style: italic;
+    font-weight: 550;
+}
+
+thead {
+    background-color: #e1d2d0;
+}
+
+th,
+td {
+    border: 1px solid #754e38;
+    padding: 10px;
+}
+
+td {
+    background-image: url(./Images/Background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    list-style-position: inside;
+    text-align: left;
+    padding: 10px;
+}
+
+/* MEDIA QUERIES*/
+
+@media only screen and (max-width: 308px) {
+    .content-block {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .posts {
+        max-height: 40em;
+    }
+
+    nav {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #newsletter {
+        max-width: 100%;
+        margin: 0px;
+    }
+
+    .td4 img {
+        max-width: 10em;
+        max-height: 10em;
+    }
+}
+
+@media only screen and (min-width: 309px) and (max-width: 450px) {
+
+    .content-block {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .posts {
+        max-height: 40em;
+    }
+
+    nav {
+        width: 93.5%;
+    }
+
+    #newsletter {
+        max-width: 100%;
+        margin: 0px;
+    }
+
+    .td4 img {
+        max-width: 10em;
+        max-height: 10em;
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 991px) {
+    .content-block {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .posts {
+        max-height: 40em;
+    }
+
+    nav {
+        width: 96%;
+    }
+
+    #newsletter {
+        max-width: 70%;
+        margin-left: 13%;
+    }
+
+    .td4 img {
+        max-width: 10em;
+        max-height: 10em;
+    }
+
+    .content .contact-images {
+        max-width: 10em;
+        max-height: 10em;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1050px) {
+    .content-block {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 18px;
+        max-width: 44%;
+    }
+
+    .contact-images {
+        max-width: 12em;
+        max-height: 12em;
+
+    }
+
+    nav {
+        width: 97%;
+    }
+
+}
+
+@media only screen and (min-width: 1051px) and (max-width: 1311px) {
+    .content-block {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 18px;
+        max-width: 44.5%;
+    }
+
+    .contact-images {
+        max-width: 12em;
+        max-height: 12em;
+    }
+
+    nav {
+        width: 98%;
+    }
+
+}
+
+@media only screen and (min-width: 1312px) and (max-width: 1500px) {
+    .content-block {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 45%;
+    }
+
+    nav {
+        width: 98.5%;
+    }
+
+}
+
+/* Product Page - Additional Media Query */
+
+@media only screen and (min-width: 280px) and (max-width: 580px) {
+
+    thead {
+        display: none;
+    }
+
+    .td1 {
+        background-image: none;
+        background-color: #e1d2d0;
+        color: #754e38;
+    }
+
+    .td4 {
+        margin-bottom: 20px
+    }
+
+    td,
+    tr {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+/* Contact Page - Additional Media Query */
+
+@media only screen and (min-width: 740px) and (max-width: 785px) {
+    .contact-images {
+        max-width: 11.5em;
+        max-height: 11.5em;
+    }
+}
