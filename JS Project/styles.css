@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navFlexbox {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    gap: 20px;
+}
+
+#navList {
+
+    padding: 20px 0px;
+}
+
+#logo {
+    width: 20em;
+    height: 20em;
+    align-items: center;
+}
+
+#crystalFlexbox, #tarotFlexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 0px;
+}
+
+#crystalDisplay1, #crystalDisplay2, #crystalDisplay3 {
+    border: 1px solid #000;
+    border-radius: 6%;
+    width: 200px;
+    height: 350px;
+    margin: 40px 0px;
+}
+
+.celestiteButton, .citrineButton, .moonstoneButton, .tarotButton {
+    font-size: large;
+    width: 70%;
+    height: 8%;
+    margin: 15px;
+}
+
+#tarotDisplay {
+    border: 1px solid #000;
+    border-radius: 6%;
+    width: 400px;
+    height: 550px;
+    margin: 40px 0px;
+}
+
+body {
+    text-align: center;
+}
+
+.footerContent {
+    padding: 20px 0px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body style="background-color: #cca6e2" text-align: center;>
+
+    <header>
+    <nav style="background-color: #f0efeb;" id="navFlexbox">
+        <ul id="navList">
+            <a href="#" class="navHover" target="_self">Home</a>
+            <a href="#" class="navHover" target="_self">About</a>
+            <a href="#" class="navHover" target="_self">Crystal Reading</a>
+            <a href="#" class="navHover" target="_self">Tarot Reading</a>
+            <a href="#" class="navHover" target="_self">Contact</a>
+        </ul>
+    </nav>    
+
+    <img src="./Images/logoBlack.png" id="logo" onmouseover="logoMouseOver()" onmouseout="logoMouseOut()">
+    </header>
+
+    <div>
+    <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi cupiditate asperiores inventore, iusto iure ipsum a id, quae nam explicabo ut ullam officiis aspernatur porro at commodi quibusdam rerum voluptate eaque, ad rem nisi nobis libero. Omnis nulla alias voluptate similique magnam facere? Ex est, tempore saepe maiores nemo velit nobis laudantium provident doloremque ipsam itaque dolor ut vel soluta illo hic perspiciatis minus! Odio, ex mollitia dignissimos, asperiores labore exercitationem praesentium hic explicabo, est laborum corporis? Animi corrupti ratione non sunt autem repellendus quae neque mollitia! Earum, omnis illum dolore tempore, dolor labore magnam, quas atque facere nobis delectus!</p1>
+    </div>
+
+    <section style="background-color: #f0efeb;">
+    <div id="crystalFlexbox">
+        <div id="crystalDisplay1">
+        
+            <img id="celestite1" src="./Images/celestite.jpg" width="200px" height="350px" style="border-radius: 6%;">
+        
+            <button class="celestiteButton" onclick="changeCelestite()">Celestite</button>
+        
+        </div>
+        
+    
+        <div id="crystalDisplay2">
+        <button class="citrineButton">Citrine</button>
+        </div>
+
+        <div id="crystalDisplay3">
+        <button class="sunstoneButton">Moonstone</button>
+        </div>
+    </div>
+    </section>
+
+    <section>
+        <div id="tarotFlexbox">
+            <div id="tarotDisplay">
+            <button class="tarotButton">Draw Card</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+
+    <footer style="background-color: #f0efeb;">
+        <div class="footerContent">Copyright &copy; Hanna Vasik 2022</div>
+      </footer>
+
+</body>
+</html>
